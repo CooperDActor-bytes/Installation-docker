@@ -2,9 +2,9 @@
 
 cd
 #Xplex streaming
-sudo docker run -d --name xplex -p 80:80 -p 1935:1935 xplex/xplex
+sudo docker run -d --name xplex -p 80:80 -p 1988:1988 xplex/xplex
 #owncast
-sudo docker run -v `pwd`/data:/app/data -p 8080:8080 -p 1935:1935 owncast/owncast:latest
+sudo docker run -v `pwd`/data:/app/data -p 8080:8080 -p 1939:1939 owncast/owncast:latest
 #rocketchat
 sudo docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
 #peppermint ticketing
